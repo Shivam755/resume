@@ -1,6 +1,6 @@
 <template>
     <div class="flex justify-center">
-        <div class="xl:h-screen xl:w-5/6 xl:rounded-3xl bg-dark-pink flex flex-col justify-start items-center">
+        <div class="xl:h-screen w-screen xl:w-5/6 xl:rounded-3xl bg-dark-pink flex flex-col justify-start items-center">
             <div class="text-light-brown items-center flex flex-col lg:flex-row  xl:mt-4">
                 <img src="@/assets/images/profile.jpg" alt="Profile image" class="h-80 w-80 m-4 xl:h-96 xl:w-96 xl:m-10 rounded-full">
                 <div class="flex flex-col m-4 xl:m-10">
@@ -10,7 +10,7 @@
                     </p>
                 </div>
             </div>
-            <div class="grid grid-cols-2 gap-0 w-full bg-light-brown justify-center items-center">
+            <div class="flex flex-col xl:grid xl:grid-cols-2 gap-0 w-full bg-light-brown justify-center items-center">
 
                 <Head title="About"/>
                 <PropList :property="personal">
@@ -72,22 +72,22 @@ export default {
               {
                   name:"SOLAR METERING",
                   link:"https://github.com/Shivam755/SolarMetering",
-                  description:"Web application using <b>Blockchain</b> and <b>ReactJS</b>"
+                  description:"Web application using Blockchain and ReactJS"
               },
               {
                   name:"AUCTIONS",
                   link:"https://github.com/Shivam755/Auctions",
-                  description:"A web application using <b>DJANGO, HTML, CSS</b> and <b>JavaScript</b>"
+                  description:"A web application using DJANGO, HTML, CSS and JavaScript"
               },
               {
                   name:"HUBVERT",
                   link:"https://github.com/Shivam755/HubVert",
-                  description:"A web application using <b>VueJS, API</b> and <b>local-storage</b>"
+                  description:"A web application using VueJS, API and local-storage"
               },
               {
                   name:"INSTAGLONE",
                   link:"https://github.com/QuronXZ/Instaglone",
-                  description:"An Instagram clone, created using <b>Flutter</b> and <b>Firebase</b>"
+                  description:"An Instagram clone, created using Flutter and Firebase"
               },
               
           ],
